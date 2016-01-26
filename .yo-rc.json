@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "dondereciclo",
+    "packageName": "net.bevia.dondereciclo",
+    "packageFolder": "net/bevia/dondereciclo",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "gulp",
+    "enableTranslation": true,
+    "enableSocialSignIn": true,
+    "rememberMeKey": "74db3038adc8f9cd729f52615768462e68233773",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}

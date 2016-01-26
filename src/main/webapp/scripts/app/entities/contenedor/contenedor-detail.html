@@ -1,0 +1,54 @@
+
+<div>
+    <h2><span translate="donderecicloApp.contenedor.detail.title">Contenedor</span> {{contenedor.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="donderecicloApp.contenedor.name">Name</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{contenedor.name}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="donderecicloApp.contenedor.lat">Lat</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{contenedor.lat}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="donderecicloApp.contenedor.lon">Lon</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{contenedor.lon}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="donderecicloApp.contenedor.user">user</span>
+                </td>
+                <td>
+                    {{contenedor.user.firstName}}
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>
